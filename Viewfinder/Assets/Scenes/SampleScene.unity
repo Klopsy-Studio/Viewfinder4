@@ -300,6 +300,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 610075110}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &265532107 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 90f5e63ff6916344d8115bde5b72debb,
+    type: 3}
+  m_PrefabInstance: {fileID: 610075110}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &265532108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -378,7 +384,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 265532107}
   m_AttachEaseInTime: 0.15
   m_MovementType: 0
   m_VelocityDamping: 1
